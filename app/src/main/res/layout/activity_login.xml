@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#F44336"
+    android:orientation="vertical"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/imgBarra"
+        android:layout_width="58dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:onClick="btnHome"
+        android:scaleType="fitXY"
+        android:src="@drawable/atras2" />
+
+    <ImageView
+        android:id="@+id/imgSecond"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/vinosecond" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/stylo_dorde"
+        android:hint="Email Address"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/stylo_dorde"
+        android:hint="Password"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="3dp"
+        android:text="¿olvidaste tu contraseña?" />
+
+    <Button
+        android:id="@+id/btnLogearse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#b80d48"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:text="log in"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="3dp"
+        android:textSize="20sp"
+        android:text="or" />
+
+    <Button
+        android:id="@+id/btnRegistrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#b80d48"
+        android:onClick="registrarse"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="10dp"
+        android:text="sign up"
+        android:textSize="30sp" />
+
+</LinearLayout>

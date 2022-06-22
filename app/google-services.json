@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "562234870858",
+    "project_id": "conexionbasededatos-cb02578",
+    "storage_bucket": "conexionbasededatos-cb02578.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562234870858:android:6941d865f01adb355caab3",
+        "android_client_info": {
+          "package_name": "com.ivan.conexionbasededatos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562234870858-i7em6lga3sut5qj1minj4kbaat01kttq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBc6OQfyfkHe4AWOUXPUIwNOkvDhNTfeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562234870858-i7em6lga3sut5qj1minj4kbaat01kttq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
